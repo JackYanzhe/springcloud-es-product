@@ -16,9 +16,9 @@ spring:
       label: master # 配置仓库的分支
       server:
         git:
-          uri: https://github.com/JackYanzhe/SpringcloudConfig.git  # 配置git仓库地址
-          searchPaths: ConfigDemo # 配置仓库路径
+          uri: https://github.com/JackYanzhe/springcloud-es-product.git  # 配置git仓库地址
+          searchPaths: cloud-es-config # 配置仓库路径
           username: # 访问git仓库的用户名
           password: # 访问git仓库的用户密码
         native:
-          search-locations: D:/javaProject/ConfigDemo/  #本地配置文件位置
+          search-locations: E:/IdeaWorkspace-local/springcloud-es-project/cloud-es-config/  #本地配置文件位置
