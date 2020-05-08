@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="commons-http" />
         <module name="eureka-server" />
         <module name="config-server" />
         <module name="sc-item-demo" />
-        <module name="commons-utils" />
         <module name="sc-elasticsearch-demo" />
         <module name="sc-xxl-job-demo" />
-        <module name="commons-http" />
+        <module name="commons-utils" />
         <module name="sc-muster-item-demo" />
       </profile>
     </annotationProcessing>
