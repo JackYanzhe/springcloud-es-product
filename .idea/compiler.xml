@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="config-server" />
+        <module name="sc-item-demo" />
+        <module name="commons-utils" />
+        <module name="sc-elasticsearch-demo" />
+        <module name="sc-xxl-job-demo" />
+        <module name="commons-http" />
+        <module name="sc-muster-item-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sc-mybatis-item" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons-http" options="-parameters" />
+      <module name="commons-utils" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="sc-elasticsearch-demo" options="-parameters" />
+      <module name="sc-item-demo" options="-parameters" />
+      <module name="sc-muster-item-demo" options="-parameters" />
+      <module name="sc-xxl-job-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
